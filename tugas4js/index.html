@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaji Pokok Pegawai</title>
+</head>
+<body>
+    <h1 style="text-align: center;">INPUT DATA PEGAWAI</h1>
+    <br>
+    <form action="" id="formPegawai">
+        <table class="inputPegawai" style="margin: auto;">
+            <tr>
+                <td>
+                    <label for="">Nama Pegawai</label>
+                </td>
+                <td>
+                    : <input type="text" name="nama" id="nama" placeholder="Masukkan nama pegawai">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Jabatan</label>
+                </td>
+                <td>
+                    : <select name="jabatan" id="jabatan">
+                        <option value="">Pilih Jabatan ------</option>
+                        <option value="Manager">Manager</option>
+                        <option value="Asisten Manager">Asisten Manager</option>
+                        <option value="Staff">Staff</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Status</label>
+                </td>
+                <td>
+                    : <input type="radio" name="status" id="menikah" value="Menikah" required>
+                    <label for="">Menikah</label>
+                </td>
+                <td>
+                    <input type="radio" name="status" id="belumMenikah" value="Belum Menikah" required>
+                    <label for="">Belum Menikah</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit">Submit</button>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <br>
+        <hr>
+        <h2 style="text-align: center;">Data Pegawai</h2>
+        <table id="tabelPegawai" border="1" cellpadding="10" cellspacing="0" style="margin: auto;">
+            <thead style="background-color: cornflowerblue;">
+                <tr>
+                    <th>Nama</th>
+                    <th>Jabatan</th>
+                    <th>Status</th>
+                    <th>Gaji Pokok</th>
+                    <th>Tunjangan Jabatan</th>
+                    <th>BPJS</th>
+                    <th>Tunjangan Keluarga</th>
+                </tr>
+            </thead>
+            <tbody id="dataPegawai">
+
+            </tbody>
+            <tfoot id="totalGaji" style="text-align: center; font-weight: bold;">
+                
+            </tfoot>
+        </table>
+    </form>
+    <script src="javaScript/script.js"></script>
+</body>
+</html>
