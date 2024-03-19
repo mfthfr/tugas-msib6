@@ -11,7 +11,7 @@ var status = document.getElementById("status").innerText;
 if (jabatan === "Manager"){
     gajiPokok = 15000000;
 } else if (jabatan === "Asisten Manager"){
-    gajiPokok = 1000000;
+    gajiPokok = 10000000;
 }else{
     gajiPokok = 5000000;
 }
