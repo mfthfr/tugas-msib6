@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handler</title>
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+    <h2>Letakan kursor ke masing-masing kotak untuk melihat gambar dan mendengarkan suaranya</h2>
+    <div id="div1" class="hewan">
+        Hewan Bebek
+        <audio src="img_sound/bebek.mp3" class="suaraHewan"></audio>
+    </div>
+    <div id="div2" class="hewan">
+        Hewan Kucing
+        <audio src="img_sound/kucing.mp3" class="suaraHewan"></audio>
+    </div>
+    <div id="div3" class="hewan">
+        Hewan Ayam
+        <audio src="img_sound/ayam.mp3" class="suaraHewan"></audio>
+    </div>
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script>
+        $("document").ready(function(){
+            // menambahkan suara hewan
+            $(".hewan").mouseover(function(){
+                var suara = $(this).find('.suaraHewan')[0];
+                suara.play();
+            })
+            $("#div1").mouseover(function(){
+                $(this).css({
+                    background: "url('https://1.bp.blogspot.com/-BfMTOvFVG0s/V9OzxtuCO1I/AAAAAAAAA2o/xoMO_21DqQwuVyyd0ozrM-_c7Xwa5E2cQCEw/s1600/foto%2B%2526%2Bgambar%2Bbebek-02.jpg')"
+                });
+            });
+            $("div").mouseout(function(){
+                $(this).css({
+                    background: "greenyellow"
+                });
+            });
+
+            $("#div2").mouseover(function(){
+                $(this).css({
+                    background: "url('https://th.bing.com/th/id/OIP.EhevJlvZ5P6sYlv8DEGr9AHaJQ?rs=1&pid=ImgDetMain')"
+                });
+            });
+
+            $("#div3").mouseover(function(){
+                $(this).css({
+                    background: "url('https://cdn.idntimes.com/content-images/post/20170426/f1-ac115f7297567492bbca9eec6adbc3cb.jpg')"
+                });
+            });
+        });
+    </script>
+</body>
+</html>
