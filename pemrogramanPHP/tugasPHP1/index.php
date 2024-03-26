@@ -34,24 +34,22 @@
             </div>
         </nav>
         <!-- Masthead-->
-        <?php
-            echo '<header class="masthead bg-primary text-white text-center">
-                    <div class="container d-flex align-items-center flex-column">
-                        <img class="masthead-avatar mb-3" src="assets/img/Patrick.png" alt="..." />
-                        <h1 class="masthead-heading text-uppercase mb-0">Hi, Guys</h1>
-                        <div class="divider-custom divider-light">
-                            <div class="divider-custom-line"></div>
-                            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                            <div class="divider-custom-line"></div>
-                        </div>
-                        <p class="masthead-subheading font-weight-light mb-0">Akademi Fullstack Web Developer | MSIB 6</p>
-                    </div>
-                </header>';
-        ?>
-        <!-- About Section-->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <img class="masthead-avatar mb-3" src="assets/img/Patrick.png" alt="..." />
+                <h1 class="masthead-heading text-uppercase mb-0">Hi, Guys</h1>
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <p class="masthead-subheading font-weight-light mb-0">Akademi Fullstack Web Developer | MSIB 6</p>
+            </div>
+        </header>
+        <!-- Profile Section-->
         <section class="page-section bg-primary text-white mb-0" id="about">
             <div class="container">
-                <!-- About Section Heading-->
+                <!-- Profile Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-white">Profile</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
@@ -59,19 +57,26 @@
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- About Section Content-->
+                <!-- Profile Section Content-->
                 <?php
-                    echo '<div class="row">
-                            <div class="col-lg-4 ms-auto">
-                                <p class="lead">Nama : Miftah Farid Ramdhani</p>
-                                <p class="lead">Email : miftahfr22@gmail.com</p>
-                                <p class="lead">Alamat : Kabupaten Bandung, Jawa Barat</p>
-                            </div>
-                            <div class="col-lg-4 me-auto">
-                                <p class="lead"><a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/miftahfaridramdhani" target="blank"><i class="fab fa-fw fa-linkedin-in"></i></a> Miftah Farid Ramdhani</p>
-                                <p class="lead"><a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/mftah.frid/" target="blank"><i class="fab fa-fw fa-instagram"></i></a> mfth.frid</p>
-                            </div>
-                        </div>';
+                    $nama = "Miftah Farid Ramdhani";
+                    $email = "miftahfr22@gmail.com";
+                    $alamat = "Kabupaten Bandung, Jawa Barat";
+                    $instagram = "mfth.frid";
+                    $link1 = "https://www.linkedin.com/in/miftahfaridramdhani";
+                    $link2 = "https://www.instagram.com/mftah.frid/";
+
+                    echo '<div class="row">';
+                    echo '<div class="col-lg-4 ms-auto">';
+                    echo '<p class="lead">Nama : '.$nama.'</p>';
+                    echo '<p class="lead">Email : '.$email.'</p>';
+                    echo '<p class="lead">Alamat : '.$alamat.'</p>';
+                    echo '</div>';
+                    echo '<div class="col-lg-4 me-auto">';
+                    echo '<p class="lead"><a class="btn btn-outline-light btn-social mx-1" href="'.$link1.'" target="blank"><i class="fab fa-fw fa-linkedin-in"></i></a> '.$nama.'</p>';
+                    echo '<p class="lead"><a class="btn btn-outline-light btn-social mx-1" href="'.$link2.'" target="blank"><i class="fab fa-fw fa-instagram"></i></a> '.$instagram.'</p>';
+                    echo '</div>';
+                    echo '</div>';
                 ?>
             </div>
         </section>
@@ -88,50 +93,53 @@
                 </div>
                 <!-- Organization Section Content-->
                 <?php
-                    echo '<div class="row text-black">
-                            <div class="col-lg-4 ms-auto">
-                                <h3 class="lead">Periode 2021 - Sekarang</h3>
-                                <p class="lead">Badan Eksekutif Mahasiswa</p>
-                            </div>
-                            <div class="col-lg-4 ms-auto">
-                                <h3 class="lead">Periode 2018 - 2021</h3>
-                                <p class="lead">Pramuka</p>
-                            </div>
-                        </div>';
+                    $periode1= "Periode 2021 - Sekarang";
+                    $periode2= "Periode 2018 - 2021";
+                    $organisasi1= "Badan Eksekutif Mahasiswa";
+                    $organisasi2= "Pramuka";
+
+                    echo '<div class="row text-black">';
+                    echo '<div class="col-lg-4 ms-auto">';
+                    echo '<h3 class="lead">'.$periode1.'</h3>';
+                    echo '<p class="lead">'.$organisasi1.'</p>';
+                    echo '</div>';
+                    echo '<div class="col-lg-4 ms-auto">';
+                    echo '<h3 class="lead">'.$periode2.'</h3>';
+                    echo '<p class="lead">'.$organisasi2.'</p>';
+                    echo '</div>';
+                    echo '</div>';
                 ?>
             </div>
         </section>
         <!-- Footer-->
-        <?php
-            echo '<footer class="footer text-center">
-                    <div class="container">
-                        <div class="row">
-                            <!-- Footer Location-->
-                            <div class="col-lg-4 mb-5 mb-lg-0">
-                                <h4 class="text-uppercase mb-4">Location</h4>
-                                <p class="lead mb-0">
-                                    Miftah FR
-                                    <br />
-                                    Kab.Bandung, Jawa Barat
-                                </p>
-                            </div>
-                            <!-- Footer Social Icons-->
-                            <div class="col-lg-4 mb-5 mb-lg-0">
-                                <h4 class="text-uppercase mb-4">Around the Web</h4>
-                                <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/miftahfaridramdhani" target="blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                                <a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/mftah.frid/" target="blank"><i class="fab fa-fw fa-instagram"></i></a>
-                            </div>
-                            <!-- Footer About Text-->
-                            <div class="col-lg-4">
-                                <h4 class="text-uppercase mb-4">About Freelancer</h4>
-                                <p class="lead mb-0">
-                                    Zero to Hero!
-                                </p>
-                            </div>
-                        </div>
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Location-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Location</h4>
+                        <p class="lead mb-0">
+                            Miftah FR
+                            <br />
+                            Kab.Bandung, Jawa Barat
+                        </p>
                     </div>
-                </footer>';
-        ?>
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Around the Web</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/miftahfaridramdhani" target="blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/mftah.frid/" target="blank"><i class="fab fa-fw fa-instagram"></i></a>
+                    </div>
+                    <!-- Footer About Text-->
+                    <div class="col-lg-4">
+                        <h4 class="text-uppercase mb-4">About Freelancer</h4>
+                        <p class="lead mb-0">
+                            Zero to Hero!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
             <div class="container"><small>Copyright &copy; MFR 2024</small></div>
