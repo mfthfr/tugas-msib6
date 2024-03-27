@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+#formBelanja {
+    margin: 20px auto;
+    width: 40%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"],
+button[type="reset"] {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button[type="reset"] {
+    background-color: #f44336;
+    margin-left: 10px;
+}
+
+button[type="reset"]:hover{
+    background-color: #f72415;
+}
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#tabelHarga {
+    width: 30%;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#tabelHarga th,
+#tabelHarga td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    border: 1px solid black;
+}
+
+#tabelHarga th {
+    text-align: center;
+    background-color: #24413f;
+    color: #fff;
+}
+
+#tabelHarga tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#tabelHarga tr:hover {
+    background-color: #ddd;
+}
+
+#tabelHasil {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#tabelHasil th,
+#tabelHasil td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+#tabelHasil th {
+    background-color: #24413f;
+    color: #fff;
+}
+
+#tabelHasil tfoot {
+    font-weight: bold;
+}
+
+#tabelHasil tr:hover {
+    background-color: #f2f2f2;
+}
