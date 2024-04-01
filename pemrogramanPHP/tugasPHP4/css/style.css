@@ -32,6 +32,9 @@ body{
 /* footer */
 
 .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     text-align: center;
     background-color: #31363F;
     color: #EEEEEE;
@@ -153,4 +156,5 @@ legend {
 .product p {
   margin-top: 5px;
   font-size: 14px;
+  font-weight: bold;
 }

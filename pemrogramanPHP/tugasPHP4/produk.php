@@ -8,33 +8,47 @@
 </head>
 <body>
     <div class="container">
-        <h1>Product Catalog</h1>
+        <h1>KATALOG PRODUK</h1>
 
         <fieldset>
-            <legend>Shoes Catalog</legend>
+            <legend>SEPATU</legend>
             <div class="catalog">
                 <div class="product">
-                    <img src="shoe1.jpg" alt="Shoe 1">
-                    <h2>Casual Sneakers</h2>
-                    <p>$50</p>
+                    <img src="image/sepatu1.jpg" alt="">
+                    <h2>Krisbow Safety Shoes <br>Arrow 4 inch</h2>
+                    <p>Rp 280.000</p>
                 </div>
                 <div class="product">
-                    <img src="shoe2.jpg" alt="Shoe 2">
-                    <h2>Sporty Running Shoes</h2>
-                    <p>$70</p>
+                    <img src="image/sepatu2.jpg" alt="">
+                    <h2>Jordan 1 HIGH MOCHA <br>PK QUALITY</h2>
+                    <p>Rp 1.875.000</p>
                 </div>
                 <div class="product">
-                    <img src="shoe3.jpg" alt="Shoe 3">
-                    <h2>Formal Leather Shoes</h2>
-                    <p>$80</p>
+                    <img src="image/sepatu3.jpg" alt="">
+                    <h2>Veja Nova <br>Canvas Sneakers</h2>
+                    <p>Rp 1.550.000</p>
                 </div>
             </div>
         </fieldset>
 
         <fieldset>
-            <legend>Watches Catalog</legend>
+            <legend>JAM TANGAN</legend>
             <div class="catalog">
-                <!-- Isi katalog jam tangan disini -->
+                <div class="product">
+                    <img src="image/jam1.jpg" alt="">
+                    <h2>Casio <br>G-Shock GA-1000</h2>
+                    <p>Rp 1.250.000</p>
+                </div>
+                <div class="product">
+                    <img src="image/jam2.jpg" alt="">
+                    <h2>Eiger Jam Tangan Pria <br>1989 Provo</h2>
+                    <p>Rp 937.500</p>
+                </div>
+                <div class="product">
+                    <img src="image/jam3.jpg" alt="">
+                    <h2>Eiger Jam Tangan Pria <br>Helicon</h2>
+                    <p>Rp 625.000</p>
+                </div>
             </div>
         </fieldset>
     </div>
