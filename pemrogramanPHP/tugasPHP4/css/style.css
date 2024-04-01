@@ -1,0 +1,156 @@
+body{
+    background-color: #EEEEEE;
+}
+/* header */
+.header {
+    text-align: center;
+    background-color: #76ABAE;
+    height: 80px;
+    padding: 10px;
+    color: #EEEEEE;
+}
+
+.navbar {
+    text-align: center;
+    background-color: #31363F;
+    color: #EEEEEE;
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+.navbar a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #76ABAE;
+}
+
+/* footer */
+
+.footer {
+    text-align: center;
+    background-color: #31363F;
+    color: #EEEEEE;
+    padding: 20px 0;
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* home */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+fieldset {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+legend {
+  font-weight: bold;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about img {
+  width: 40%;
+  height: auto;
+  margin-right: 20px;
+}
+
+.about p {
+  width: 55%;
+  text-align: justify;
+}
+
+.jargon {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #76ABAE;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.jargon h2 {
+  font-size: 24px;
+  color: #EEEEEE;
+}
+
+.jargon p {
+  font-size: 16px;
+  color: #EEEEEE;
+}
+
+/* Produk */
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+fieldset {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+legend {
+  font-weight: bold;
+}
+
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product {
+  width: 30%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+}
+
+.product h2 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.product p {
+  margin-top: 5px;
+  font-size: 14px;
+}
